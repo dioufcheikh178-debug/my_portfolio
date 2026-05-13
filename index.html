@@ -384,13 +384,31 @@ footer{
   background:linear-gradient(90deg,var(--gold),var(--gold2));
   z-index:101;transition:width .1s;width:0;
 }
+.img_div{
+  position: absolute;
+  right: -500px;
+  top: 120px;
+  text-align: center;
+}
+.img_div img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid gold;
+}
+.img_div h3{
+  margin-top: 15px;
+  color: white;
+  font-size: 28px;
+}
 </style>
 </head>
 <body>
 
 <!-- Loader -->
 <div id="loader">
-  <div class="loader-logo">JD / Dev</div>
+  <div class="loader-logo">CHDF / Dev</div>
 </div>
 
 <!-- Curseur custom -->
@@ -402,7 +420,7 @@ footer{
 
 <!-- Nav -->
 <nav class="nav">
-  <span class="nav-logo">JD / Dev</span>
+  <span class="nav-logo">CHDF / Dev</span>
   <div class="nav-links">
     <a href="#competences">Compétences</a>
     <a href="#projets">Projets</a>
@@ -424,6 +442,7 @@ footer{
       Disponible pour de nouvelles missions
     </div>
     <h1>Développeur<br><em>Fullstack</em><br>& Architecte Web</h1>
+     <div class="img_div"><img src="dioufy.jpeg" alt="Cheikh diouf"><h3>Cheikh diouf</h3></div>
     <p class="hero-sub">Je conçois et déploie des applications modernes — du backend robuste à l'interface soignée. Basé à Dakar, disponible en remote.</p>
     <div class="hero-actions">
       <button class="btn-primary" onclick="document.getElementById('projets').scrollIntoView({behavior:'smooth'})">
@@ -595,7 +614,7 @@ footer{
       <span class="blog-date">Avr. 2026</span>
       <div class="blog-content">
         <div class="blog-title">React Server Components : vraiment utile en production ?</div>
-        <div class="blog-excerpt">Analyse concrète des gains de performance sur 3 projets clients.</div>
+        <div class="blog-excerpt">Analyse concrète des gains de performance sur 1 projets clients.</div>
       </div>
       <span class="blog-cat">Frontend</span>
       <i class="ti ti-arrow-right blog-arrow"></i>
@@ -625,19 +644,19 @@ footer{
       <p>Vous avez un projet en tête ? Je suis disponible pour des missions freelance, des CDI ou des collaborations à distance.</p>
       <div class="contact-detail">
         <div class="contact-icon"><i class="ti ti-mail"></i></div>
-        <span class="contact-text">votre.email@exemple.com</span>
+        <span class="contact-text"><a href="dioufcheikh178@gmail.com">dioufcheikh178@gmail.com</a></span>
       </div>
       <div class="contact-detail">
         <div class="contact-icon"><i class="ti ti-map-pin"></i></div>
-        <span class="contact-text">Dakar, Sénégal — Remote OK</span>
+        <span class="contact-text">Kaolack, Sénégal — Remote OK</span>
       </div>
       <div class="contact-detail">
         <div class="contact-icon"><i class="ti ti-brand-linkedin"></i></div>
-        <span class="contact-text">linkedin.com/in/votreprofil</span>
+        <span class="contact-text"> <a href="https://www.linkedin.com/in/cheikh-diouf-7b1a8a408">linkedin.com/in/cheikh-diouf</a> </span>
       </div>
       <div class="contact-detail">
         <div class="contact-icon"><i class="ti ti-brand-github"></i></div>
-        <span class="contact-text">github.com/votrepseudo</span>
+        <span class="contact-text"><a href="https://dioufcheikh178-debug.github.io/my_portfolio/">github.com/dioufcheikh178</a></span>
       </div>
     </div>
     <div class="contact-form reveal-right">
